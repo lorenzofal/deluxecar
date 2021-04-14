@@ -4,49 +4,49 @@ let autos = {
             id : 1,
             nombre : "Kia Rio",
             precio : "500.000",
-            imagen : "img src = '../images/products/img-cafetera-moulinex.jpg'"
+            imagen : "kia rio.jpeg"
         },
         {
             id : 2,
-            nombre : "bmw",
+            nombre : "Bmw X5",
             precio : "1500.000",
-            imagen : "../public/autosImg/golf.jpeg"
+            imagen : "bmw.jpeg"
         },
         {
             id : 3,
-            nombre : "etios",
+            nombre : "Toyota Etios",
             precio : "300.000",
-            imagen : "../public/autosImg/golf.jpeg"
+            imagen : "etios.jpeg"
         },
         {
             id : 4,
-            nombre : "golf",
+            nombre : "Volswagen Golf",
             precio : "900.000",
-            imagen : "../public/autosImg/golf.jpeg"
+            imagen : "golf.jpeg"
         },
         {
             id : 4,
-            nombre : "golf",
+            nombre : "Mercedes Benz Clase C",
             precio : "900.000",
-            imagen : "../public/autosImg/golf.jpeg"
+            imagen : "mercedes.jpeg"
         },
         {
             id : 4,
-            nombre : "golf",
+            nombre : "Toyota Yaris",
             precio : "900.000",
-            imagen : "../public/autosImg/golf.jpeg"
+            imagen : "yarys.jpeg"
         },
         {
             id : 4,
-            nombre : "golf",
+            nombre : "Volswagen Polo",
             precio : "900.000",
-            imagen : "../public/autosImg/golf.jpeg"
+            imagen : "golf.jpeg"
         },
         {
             id : 4,
-            nombre : "golf",
+            nombre : "Toyota Corolla",
             precio : "900.000",
-            imagen : "../public/autosImg/golf.jpeg"
+            imagen : "yarys.jpeg"
         }
 
     ]
