@@ -14,11 +14,31 @@
     <link rel="stylesheet" href="./stylesheets/app.css">
   </head>
   <%- include('./partials/header') %>
-
+  
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <div class="container products-wrapper">
+      <div class="row">
+          <% for (let i=0; i<autos.length; i ++){ %>
+			    <div class="col-12 col-sm-6 col-lg-3">
+				  <section class="product-box">
+					<a href="product.html">
+						<figure class="product-box_image">
+							<img src="../data/autos.js/<% autos[i].imagen %> " alt="cafetera moulinex">
+						</figure>
+						<article class="product-box_data">
+							<h2>el auto es un : <%= autos[i].nombre %></h2>
+							<p>precio : <%= autos[i].precio %></p>
+							<p>Comentarios: 12</p>
+						</article>
+					</a>
+				</section>
+			</div>
+			<% } %>
+    </div>
+  </div>
   </body>
-  
+
   <%- include('./partials/footer') %>
 </html>
