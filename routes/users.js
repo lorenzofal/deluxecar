@@ -2,10 +2,10 @@ var express = require('express');
 var router = express.Router();
 
 
-const controladorUsuario = require('../controllers/ControladorUsuario');
+const controladorUsuario = require('../controllers/controladorUsuario');
 
 /* GET users listing. */
 
-router.get("/registro", controladorUsuario.register)
-router.get("/login",  controladorUsuario.logIn)
+router.get('/register', controladorUsuario.register)
+//router.get('/login',  controladorUsuario.login)
 module.exports = router;
