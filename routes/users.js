@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
+
+const controladorUsuario = require('../controllers/ControladorUsuario');
+
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
-let ControladorUsuario = require("../controllers/ControladorUsuario")
-router.get("/registro", ControladorUsuario.register)
-router.get("/login",  ControladorUsuario.logIn)
+
+router.get("/registro", controladorUsuario.register)
+router.get("/login",  controladorUsuario.logIn)
 module.exports = router;
