@@ -1,4 +1,4 @@
-let ControladorUsuario = {
+module.exports = {
     register : (req, res) =>{
         //return res.render("registro")
         return res.send("Hola")
@@ -7,5 +7,3 @@ let ControladorUsuario = {
         return res.render("LogIn")
     },
 }
-
-module.exports = ControladorUsuario
