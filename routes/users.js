@@ -6,6 +6,6 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 let ControladorUsuario = require("../controllers/ControladorUsuario")
-router.get("/registro", ControladorUsuario.index)
+router.get("/registro", ControladorUsuario.register)
 router.get("/login",  ControladorUsuario.logIn)
 module.exports = router;
