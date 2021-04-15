@@ -25,25 +25,25 @@ let autos = {
             imagen : "golf.jpeg"
         },
         {
-            id : 4,
+            id : 5,
             nombre : "Mercedes Benz Clase C",
             precio : "900.000",
             imagen : "mercedes.jpeg"
         },
         {
-            id : 4,
+            id : 6,
             nombre : "Toyota Yaris",
             precio : "900.000",
             imagen : "yarys.jpeg"
         },
         {
-            id : 4,
+            id : 7,
             nombre : "Volswagen Polo",
             precio : "900.000",
             imagen : "golf.jpeg"
         },
         {
-            id : 4,
+            id : 8,
             nombre : "Toyota Corolla",
             precio : "900.000",
             imagen : "yarys.jpeg"
