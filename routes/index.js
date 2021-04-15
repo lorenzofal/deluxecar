@@ -14,6 +14,7 @@ router.get('/', function(req, res, next) {
 });
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Inicia sesión' });
+  res.render('index', { title: 'Express' });
 });
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Perfil del usuario' });
@@ -28,4 +29,5 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Respuestas a tu busqueda' });
 });
 */
+
 module.exports = router;
