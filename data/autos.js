@@ -4,7 +4,7 @@ let autos = {
             id : 1,
             nombre : "Kia Rio",
             precio : "500.000",
-            imagen : "kia rio.jpeg"
+            imagen : "kiario.jpeg"
         },
         {
             id : 2,

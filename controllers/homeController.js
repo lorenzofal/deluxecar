@@ -5,9 +5,9 @@ module.exports = {
     }, 
     detail: (req, res)=>{
         let id = req.params.id;
-        for(let i = 0; i < autos.length; i++){
-            if(autos[i].id == id){
-                return res.render('detail', {auto : autos[i]});
+        for(let i = 0; i < autos.lista.length; i++){
+            if(autos.lista[i].id == id){
+                return res.render('detail', {auto : autos.lista[i]});
             }
         }
     }
