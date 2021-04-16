@@ -3,7 +3,9 @@ module.exports = {
         //return res.render("registro")
         return res.send("Hola")
     },
-    //login:(req, res)=> {
-        //return res.render("LogIn")
-    //},
+    login:(req, res)=> {
+//      return res.render("LogIn")
+        return res.send("Hola")
+    },
+
 }

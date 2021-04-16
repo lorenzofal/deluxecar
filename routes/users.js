@@ -7,5 +7,7 @@ const controladorUsuario = require('../controllers/controladorUsuario');
 /* GET users listing. */
 
 router.get('/register', controladorUsuario.register)
-//router.get('/login',  controladorUsuario.login)
+
+router.get('/login',  controladorUsuario.login)
+
 module.exports = router;
