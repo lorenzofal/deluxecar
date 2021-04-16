@@ -1,7 +1,7 @@
 module.exports = {
     register : (req, res) =>{
-        //return res.render("registro")
-        return res.send("Hola")
+         res.render("register")
+        
     },
     login:(req, res)=> {
         return res.render("login")
