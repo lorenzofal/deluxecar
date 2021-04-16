@@ -4,7 +4,7 @@ module.exports = {
         return res.send("Hola")
     },
     login:(req, res)=> {
-//      return res.render("LogIn")
+        return res.render("login")
         return res.send("Hola")
     },
 
