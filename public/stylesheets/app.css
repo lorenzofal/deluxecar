@@ -109,6 +109,12 @@ hr {
   cursor: pointer;
 }
 
+/*====== NUESTROS CAMBIOS =======*/
+.nuestros-productos {
+  font-family: garamond font;
+  font-size: 40px;
+  color: #3E2723;
+}
 
 /*====== Main Navbar ======*/
 .btn-toggle-navbar {
