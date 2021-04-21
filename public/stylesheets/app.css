@@ -109,19 +109,6 @@ hr {
   cursor: pointer;
 }
 
-.redes {
-
-
-  width: 32%;
-  height: 20%;
-  display: flex;
-  flex-direction: row;
-}
-
-.fotoFacebook {
-
-}
-
 /*====== NUESTROS CAMBIOS =======*/
 .nuestros-productos {
   font-family: garamond font;
