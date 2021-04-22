@@ -9,5 +9,6 @@ const controladorUsuario = require('../controllers/controladorUsuario');
 router.get('/register', controladorUsuario.register)
 
 router.get('/login',  controladorUsuario.login)
+router.get('/profile', controladorUsuario.profile)
 
 module.exports = router;
