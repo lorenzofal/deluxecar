@@ -9,8 +9,15 @@ module.exports = {
     },
     profile:(req,res)=>{
         res.render("profile")
-    }
+    },
 
-    
+   profileEdit: (req,res)=>{
+       return res.render('profile-edit')
+
+
+   }
+   
+
+   
 
 }
