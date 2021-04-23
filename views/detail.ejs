@@ -16,10 +16,83 @@
 
 <body>
     <%- include('./partials/header') %>
-    <div class="col-12 ">
+    		
+			<div class="container products-wrapper">
+                <div class="d-flex align-items-center">
+                    <h2 class="products-title"><%= auto.nombre %> </h2> 
+                    <p class="product-detail-description">
+                        <a href="/product-add">Editar</a>
+                    </p>
+                    <a href="/" class= "btn btn-primary">Volver</a>
+
+                </div>
+                <div class="product-detail">
+                    <div class="row">
+                        <article class="col-12 col-lg-8 product-detail-info">
+                            <img src="/autosImg/<%=auto.imagen%>" alt=".product-detail-img">
+                            <p class="product-detail-description"><%= auto.descripcion %> </p>
+                        </article>
+                        <div class="col-12 col-lg-4">
+                            <section class="comments">
+                                <article>
+                                    <img src="/images/users/felipe.jpeg" alt="userIcon">
+                                    <div class="data">
+                                        <p class="user">
+                                        <strong> <a href="/">Felipe de Aramburu: </a> </strong>
+                                        Solo algunos pueden acceder a estos lujos</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="/images/users/Diogi.jpeg" alt="userIcon">
+                                    <div class="data">
+                                        <p class="user">
+                                            <strong> <a href="/">Diógenes Blaquier: </a> </strong>
+                                            Que lujo! Mi próxima compra
+                                        </p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="/images/users/dani.jpeg" alt="userIcon">
+                                    <div class="data">
+                                        <p class="user">
+                                            <strong> <a href="/">Dani Fuentes: </a> </strong>
+                                            Loreeee
+                                        </p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="/images/users/Maca.jpeg" alt="userIcon">
+                                    <div class="data">
+                                        <p class="user">
+                                            <strong> <a href="/">Maca Armijo: </a> </strong>
+                                            Que buen auto! ¿Hay algun descuento con LaNacion?
+                                        </p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="/images/users/lorenzo.jpeg" alt="userIcon">
+                                    <div class="data">
+                                        <p class="user">
+                                            <strong> <a href="/">Lorenzo Fallik: </a> </strong>
+                                            El auto de mis sueños
+                                        </p>
+                                    </div>
+                                </article>
+        
+                            </section>
+                            <form class="form" action="" method="POST">
+                                <input class="form-input" type="text" value="" placeholder="Agregar comentario">
+                                <button type="submit" class="buy-now-button">AGREGAR COMENTARIO</button>
+                            </form>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <!--  <div class="col-12 ">
         <section class="product-box">
               <figure class="product-box_image">
-                  <img src="/autosImg/<%=auto.imagen%>" alt="cafetera moulinex">
+                  <img src="/autosImg/<%=auto.imagen%>" alt=".product-detail-img">
               </figure>
               <article class="product-box_data">
                   <h2><%= auto.nombre %></h2>
@@ -31,16 +104,7 @@
       </section>
   </div>
 
-
-
-
-
-
-
-
-
-
-
+-->
 
 
 </body>
