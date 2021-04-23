@@ -3,7 +3,21 @@
 <!-- Include Head -->
 
 <head>
-	<%- include('./partials/head') %>  
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="./images/logo.jpg">
+<title> Deluxe Cars</title>
+<!-- Font Awesome Stylesheet -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<!-- Bootstrap Grid Stylesheet -->
+<link rel="stylesheet" href="/stylesheets/bootstrap-grid.min.css">
+<!-- Own Stylesheet -->
+<link rel="stylesheet" href="/stylesheets/app.css">
+<link rel="stylesheet" href="/stylesheets/profile-edit.css">
+
+
+
+
 </head>
 
 <body>
@@ -18,12 +32,40 @@
 			<div class="col-12">
 				<h2 class="products-title">Editar mi perfil</h2>
 			</div>
-			<!-- Show the "ultimos" products -->
-			<h2 class="col-12"> <i>///////////////////////////////////////// <br> Acá va el formulario de edición de datos del perfil de usuario. <br>
-			Debe cumplir con los puntos de la consigna y ser coherente con la tabla de la base de datos deñ usuario<br>
-			Eliminen estás líneas y coloquen el formulario. <br>
-			Recuerden todo lo que necesita tanto la etiqueta form como los campos input para operar correctamtente</i> <br>
-			////////////////
+			
+
+			<form action="action_page.php">
+				<div class="container">
+				  <h1>Editar Perfil</h1>
+				  <p>Completar para cambiar los datos.</p>
+				  <hr>
+			  
+				  <label for="email"><b>Cambiar Email</b></label>
+				  <input type="text" placeholder="Enter Email" name="email" id="email" >
+			  
+				  <label for="psw"><b>Cambiar contraseña</b></label>
+				  <input type="password" placeholder="Enter Password" name="psw" id="psw" >
+			  
+				  <label for="psw-repeat"><b>Repetir contraseña</b></label>
+				  <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" >
+				  <hr>
+			  
+				  
+				  <button type="submit" class="registerbtn"><a href="/users/profile">Confirmar</a></button>
+				</div>
+			  
+				
+				
+				
+			  </form>
+					
+
+
+
+
+				</form>
+			
+			
 			</h2>
 
 
