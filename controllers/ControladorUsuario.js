@@ -14,9 +14,13 @@ module.exports = {
    profileEdit: (req,res)=>{
        return res.render('profile-edit')
 
-
-   }
-   
+   },
+  
+  addproduct: (req,res)=>{
+      res.render("product-add")
+  }
+  
+  
 
    
 
