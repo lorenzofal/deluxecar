@@ -19,7 +19,6 @@
   box-sizing: border-box;
 }
 
-html,
 body {
   min-height: 100vh;
   margin: 0;
@@ -145,7 +144,7 @@ hr {
   font-size: 1em;
 }
 
-.logout:hover{
+.fout:hover{
   color: #1259c3;
 }
 
