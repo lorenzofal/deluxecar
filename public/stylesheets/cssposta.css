@@ -1,30 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*====== Fonts ======*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 
@@ -325,10 +300,6 @@ hr {
 
 
 /*====== Product Detail ======*/
-.product-box_image-d{
-  border-bottom: 1px solid var(--light-gray);
-  width: 50%;
-}
 .product-detail {
   background-color: #ffffff;
   border-radius: 8px;
@@ -336,7 +307,7 @@ hr {
 }
 
 .product-detail-img {
-  width: 70;
+  width: %;
   display: block;
   margin: auto;
 }
@@ -429,7 +400,6 @@ hr {
 }
 .comments {
   padding: 30px 15px 15px 0;
-  
 }
 .comments article{
   margin-bottom: 7.5px;
@@ -437,7 +407,6 @@ hr {
   border-bottom: 1px solid #dcdcdc;
   display: flex;
   justify-content: space-between;
-  
 }
 .comments img{
   width: 40px;
@@ -561,3 +530,6 @@ textarea.form-input {
     margin: auto;
   }
 }
+
+
+

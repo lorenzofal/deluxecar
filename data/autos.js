@@ -4,8 +4,14 @@ let autos = {
             id : 0,
             nombre : "Kia Rio",
             precio : "1.600.000",
-            imagen : "kiario.jpeg"
+            imagen : "kiario.jpeg",
+            descripción : "Alto auto",
+            comentarios: [
+                { usuarioQueComento: 'Juan Gaona', 
+                comentario:'Un lujo'}]
+                
         },
+
         {
             id : 1,
             nombre : "Bmw X5",
