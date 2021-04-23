@@ -1,41 +1,14 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*====== Fonts ======*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 
 
 /*====== Variables ======*/
 :root {
-  --yellow: #EAC926;
+  --yellow: #D3AA06;
   --dark-blue: #03264C;
   --light-blue: #1259c3;
   --gray: #666666;
-  --light-gray: #ebebeb;
+  --light-gray: #D3AA06;
   --green: #39b54a;
   --base-font-family: 'Roboto', sans-serif
 }
@@ -136,6 +109,12 @@ hr {
   cursor: pointer;
 }
 
+/*====== NUESTROS CAMBIOS =======*/
+.nuestros-productos {
+  font-family: garamond font;
+  font-size: 50px;
+  color: #3E2723;
+}
 
 /*====== Main Navbar ======*/
 .btn-toggle-navbar {
@@ -223,6 +202,9 @@ hr {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  font-family: merriweather;
+  font-size: 15px;
+  color: #291916;
 }
 
 .product-box_data h2 {
@@ -325,10 +307,6 @@ hr {
 
 
 /*====== Product Detail ======*/
-.product-box_image-d{
-  border-bottom: 1px solid var(--light-gray);
-  width: 50%;
-}
 .product-detail {
   background-color: #ffffff;
   border-radius: 8px;
@@ -336,7 +314,7 @@ hr {
 }
 
 .product-detail-img {
-  width: 70;
+  width: 70%;
   display: block;
   margin: auto;
 }
@@ -429,7 +407,6 @@ hr {
 }
 .comments {
   padding: 30px 15px 15px 0;
-  
 }
 .comments article{
   margin-bottom: 7.5px;
@@ -437,7 +414,6 @@ hr {
   border-bottom: 1px solid #dcdcdc;
   display: flex;
   justify-content: space-between;
-  
 }
 .comments img{
   width: 40px;
