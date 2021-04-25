@@ -174,11 +174,9 @@ hr {
 }
 
 .products-title {
-  font-family: garamond font;
-  font-size: 50px;
-  color: #3E2723;
+  font-size: 2.4em;
   font-weight: 400;
-  text-align: center;
+  color: var(--gray);
 }
 
 .product-box {
@@ -455,7 +453,7 @@ hr {
   border: none;
   border: solid 1px var(--gray);
   padding: 0 15px;
-  }
+}
 
 .error{
   color: rgb(209, 0, 0);
@@ -466,24 +464,6 @@ textarea.form-input {
   min-height: 140px;
   resize: vertical;
   padding: 15px;
-}
-
-.formulario {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  zoom: 150%;
-}
-
-.form-control {
-  align-items: center;
-  width: max-content;
-  border: 2px solid rgb(107, 18, 18);
-  border-radius: 4px;
-  background-color: rgb(241, 240, 240);
-  padding: 12px 20px;
-  margin: 4px 2px;
 }
 
 /*====== Profile ======*/
