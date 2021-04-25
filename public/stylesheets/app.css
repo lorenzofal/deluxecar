@@ -452,26 +452,7 @@ hr {
   border-radius: 8px;
   border: none;
   border: solid 1px var(--gray);
-  padding:  15px;
-
-}
-
-.form-group {
- 
-color: rgba(143, 141, 141, 0.637); 
-display: inline-block;
-text-align: center;
-min-height: 60px;
-padding: 15px;
-}
-.checkbox-inline{
-  display: inline;
-  text-align: center;
-}
-
-.ingresar-forms{
-text-align: center;
-font-size: 30px;
+  padding: 0 15px;
 }
 
 .error{
