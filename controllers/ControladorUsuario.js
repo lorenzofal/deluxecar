@@ -1,5 +1,5 @@
 module.exports = {
-    register : (req, res) =>{
+    register : function(req, res) {
          res.render("register")
         
     },
@@ -11,7 +11,7 @@ module.exports = {
         res.render("profile")
     },
 
-   profileEdit: (req,res)=>{
+   profileEdit: function(req,res) {
        return res.render('profile-edit')
 
    },
