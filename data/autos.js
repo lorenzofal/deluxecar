@@ -1,5 +1,5 @@
 let autos = {
-    lista : [
+    productos : [
         {
             id : 0,
             nombre : "Kia Rio",
