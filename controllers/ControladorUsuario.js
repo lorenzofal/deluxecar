@@ -17,7 +17,7 @@ module.exports = {
    },
   
   addproduct: (req,res)=>{
-      res.render("product-add")
+      res.render("productAdd")
   }
   
 }
