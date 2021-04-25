@@ -3,9 +3,6 @@ module.exports = {
     index: (req, res)=>{
         return res.render('index', {title: 'NUESTROS PRODUCTOS', autos: autos.lista })
     }, 
-    profile: (req, res)=>{
-        return res.render('profile', {title: 'Mis Productos', autos: autos.lista })
-    }, 
     detail: (req, res)=>{
         let id = req.params.id;
         for(let i = 0; i < autos.lista.length; i++){
