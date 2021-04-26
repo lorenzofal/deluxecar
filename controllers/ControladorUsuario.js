@@ -15,7 +15,7 @@ module.exports = {
     },
 
    profileEdit: (req,res)=>{
-       return res.render('profile-edit')
+       return res.render('profileEdit')
 
    },
   
