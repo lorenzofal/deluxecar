@@ -5,7 +5,7 @@ module.exports = {
     },
     login:(req, res)=> {
         return res.render("login")
-        return res.send("Hola")
+       
     },
     profile:(req,res)=>{
         res.render("profile")
