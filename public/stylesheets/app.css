@@ -446,7 +446,8 @@ hr {
 }
 
 .form-input {
-
+  display: block;
+  width: 100%;
   height: 45px;
   margin-bottom: 15px;
   font-size: 1.5em;
@@ -468,13 +469,11 @@ textarea.form-input {
 }
 
 .formulario {
- 
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   zoom: 150%;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .form-control {
@@ -485,23 +484,6 @@ textarea.form-input {
   background-color: rgb(241, 240, 240);
   padding: 12px 20px;
   margin: 4px 2px;
-}
-
-.font-impact-white {
-  color: white;
-  font-size: medium;
-display: grid;
-margin-right: auto;
-margin-left: auto;
-font-size: 20px;
-}
-
-.button-black {
-  background-color: black;
-  color: wheat;
-  font-size: large;
-  font-weight: 800;
-  align-items: center;
 }
 
 /*====== Profile ======*/
@@ -578,5 +560,4 @@ font-size: 20px;
     width: 95%;
     margin: auto;
   }
-
 }
