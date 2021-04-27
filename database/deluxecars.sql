@@ -40,9 +40,9 @@ INSERT INTO `Usuarios` VALUES (default, "Felipe de Aramburu", "faramburu@udesa.e
 INSERT INTO `Usuarios` VALUES (default, "Lorenzo Fallik", "lfallik@udesa.edu.ar","lorenzo" , "1169958156", "2000-08-13");
 INSERT INTO `Usuarios` VALUES (default, "Diogenes Blaquier", "dblaquier@udesa.edu.ar","Diogenes", "1149807387", "2001-12-22");
 
-INSERT INTO `Productos` VALUES (default, "tiguan.jpg", "Tiguan"," El Volkswagen Tiguan es un automóvil todoterreno del segmento C de cinco plazas producido por el fabricante alemán Volkswagen desde el año 2007. Tiene carrocería de cinco puertas y motor delantero transversal, disponible con tracción delantera o tracción a las cuatro ruedas conectable automáticamente 4motion." "2019-01-01", 1);
-INSERT INTO `Productos` VALUES (default, "passat.jpg", "Passat", "Sus dimensiones son de 4,77 metros de largo, 1,83 metros de ancho y 1,48 metros de alto, con una batalla de 2,78 metros. Unas medidas que le hacen ser una de las berlinas de mayor habitabilidad interior. Ideal para cuatro o cinco pasajeros.", "2019-02-01", 2);
-INSERT INTO `Productos` VALUES (default, "amarok.jpeg","Amarok", " Sus dimensiones son 5,32 metros de largo, 1,95 metros de ancho y 1,83 metros de alto, contando con una batalla de 3,09 metros. La capacidad de carga de la pick-up de Volkswagen es de hasta 1.041 kilogramos. Su peso es de 2.100 kg." ,  3);
+INSERT INTO `Productos` VALUES (default, "/images/autosImg/tiguan.jpg", "Tiguan"," El Volkswagen Tiguan es un automóvil todoterreno del segmento C de cinco plazas producido por el fabricante alemán Volkswagen desde el año 2007. Tiene carrocería de cinco puertas y motor delantero transversal, disponible con tracción delantera o tracción a las cuatro ruedas conectable automáticamente 4motion." "2019-01-01", 1);
+INSERT INTO `Productos` VALUES (default, "/images/autosImg/passat.jpg", "Passat", "Sus dimensiones son de 4,77 metros de largo, 1,83 metros de ancho y 1,48 metros de alto, con una batalla de 2,78 metros. Unas medidas que le hacen ser una de las berlinas de mayor habitabilidad interior. Ideal para cuatro o cinco pasajeros.", "2019-02-01", 2);
+INSERT INTO `Productos` VALUES (default, " /images/autosImg/amarok.jpeg","Amarok", " Sus dimensiones son 5,32 metros de largo, 1,95 metros de ancho y 1,83 metros de alto, contando con una batalla de 3,09 metros. La capacidad de carga de la pick-up de Volkswagen es de hasta 1.041 kilogramos. Su peso es de 2.100 kg." ,  3);
 ;
 
 INSERT INTO `Comentarios` VALUES (default, "Que buen auto,mejor aun la atencion.Genios!", 1, 1);
