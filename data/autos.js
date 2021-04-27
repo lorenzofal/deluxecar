@@ -113,7 +113,6 @@ let autos = {
             descripcion : 'El Kia Sportage es un SUV de carácter familiar fabricado por KIA y que compite directamente en el reñido segmento de los SUV medianos. KIA tiene en el KIA Sportage a uno de los modelos fundamentales para entender el auge de los SUV en nuestro mercado. Es un coche que se sitúa entre el KIA Stonic y el KIA Sorento.'
         },
     ]
-
 }
 
 module.exports = autos;

@@ -1,3 +1,5 @@
+const autos = require("../data/autos")
+
 module.exports = {
     register : (req, res) =>{
          res.render("register")
@@ -8,11 +10,12 @@ module.exports = {
        
     },
     profile:(req,res)=>{
-        res.render("profile")
+        res.render("profile", {autos : autos.productos})
+
     },
 
    profileEdit: (req,res)=>{
-       return res.render('profile-edit')
+       return res.render('profileEdit')
 
    },
   

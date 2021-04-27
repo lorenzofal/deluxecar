@@ -10,5 +10,9 @@ module.exports = {
                 return res.render('detail', {auto : autos.productos[i]});
             }
         }
+    },
+    search : function (req,res) {
+        res.render ('searchResults')
     }
 }
+
