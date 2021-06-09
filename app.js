@@ -3,11 +3,27 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+// requerir session
+const session = require("express-session")
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-
+const db = require("./database/models")
 const app = express();
+
+// configuracion session
+app.use(session({
+  secret: "deluxecars",
+  resave: false,
+  saveUninitialized: true,
+
+
+} ) )
+
+// views info
+
+
+// implementacion cookies
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
