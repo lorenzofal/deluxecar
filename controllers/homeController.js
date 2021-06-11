@@ -1,18 +1,36 @@
-const autos = require('../data/autos')
+const db = require('../database/models')
+
 module.exports = {
-    index: (req, res)=>{
-        return res.render('index', {title: 'NUESTROS PRODUCTOS', autos: autos.productos })
-    }, 
-    detail: (req, res)=>{
-        let id = req.params.id;
-        for(let i = 0; i < autos.productos.length; i++){
-            if(autos.productos[i].id == id){
-                return res.render('detail', {auto : autos.productos[i]});
-            }
-        }
-    },
-    search : function (req,res) {
-        res.render ('searchResults')
+    index: (req, res) => {
+        db.Producto.findAll({
+            order: [
+                ['createdAt', 'DESC']
+            ]
+        })
+        .then(respuesta=>{
+            return res.render("index", {respuesta})
+        })
+        
     }
 }
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
