@@ -4,7 +4,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 // requerir session
-const  session = require("express-session")
+const session = require("express-session")
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
@@ -16,7 +16,9 @@ app.use(session({
   secret: "deluxecars",
   resave: false,
   saveUninitialized: true,
-} ) );
+
+
+} ) )
 
 // views info
 
