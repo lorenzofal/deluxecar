@@ -1,3 +1,5 @@
+const { sequelize } = require(".");
+
 module.exports = (sequelize, dataTypes ) => {
 
     let alias = 'Usuario';
@@ -23,14 +25,28 @@ module.exports = (sequelize, dataTypes ) => {
         },
         Telefono:{
             type: dataTypes.STRING,
-        }
-    };  
-    let config = {
-        tableName: "Usuarios",
-        timestamps: false,
-        underscored: true   
-    }
-    const Usuario = sequelize.define(alias,cols,config)
-    
-    return Usuario;
+        },
+        
+        
+
+
+        
+
+
+
+
+    },
+
+
+
+
 };
+
+let config = {
+    tableName: "Usuarios",
+    timestamps: false,
+    underscored: true
+    
+}
+const Usuario = sequelize.define(alias,cols,config)
+return Usuario;
